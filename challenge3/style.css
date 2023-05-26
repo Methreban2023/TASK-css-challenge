@@ -1,10 +1,38 @@
 /* Add your code in each class */
+.body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container {
+  height: 300px;
+  width: 400px;
+  /* background-color: blue; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 .head {
+  background-color: rgb(143, 3, 35);
+  font-family: "Italianno", cursive;
+  font-size: 100px;
+  font-weight: 800px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  color: rgb(167, 235, 183);
 }
-
+.list {
+  overflow: scroll;
+}
 .row {
+  background-color: rgb(167, 235, 183);
+  height: 100%;
+  font-family: "Pangolin", cursive;
+  /* overflow: scroll; */
   /* .row is used in ./index.js not in the html filee */
 }
 

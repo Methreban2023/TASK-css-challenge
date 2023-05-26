@@ -1,0 +1,80 @@
+/* Add your code in each class */
+body {
+  background-color: rgb(59, 2, 62);
+  height: 100vh;
+}
+.container {
+  display: flexbox;
+  padding: 50%;
+  height: 100%;
+}
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgreen;
+  /* width: 100%; */
+  position: relative;
+}
+.movie-image {
+  height: 430px;
+  width: 300px;
+  display: block;
+  object-fit: cover;
+  object-position: 30% 100%;
+  position: absolute;
+  z-index: -1;
+}
+.movie-details-container {
+  /* background-color: deeppink; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  position: absolute;
+  top: 370px;
+}
+.descriptions {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-content: center; */
+  width: 300px;
+  /* width: 200%; */
+}
+
+/*A gift from us!*/
+.movie-shadow {
+  /*
+    This gradient was made by this website https://cssgradient.io/
+*/
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+p {
+  color: rgb(230, 188, 98);
+}
+.movie-title {
+  /* background-color: aliceblue; */
+  font-family: "Dancing Script", cursive;
+  font-weight: 300%;
+  font-size: 20px;
+  color: rgb(230, 188, 98);
+  margin: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
